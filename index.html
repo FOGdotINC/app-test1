@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en" data-color-mode="dark" dark-light-theme="light" data-dark-theme="dark_high_constrast" data-a11y-animated-images="system" data-turbo-loaded>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+
+  
+
+
+ 
+  <!--Navbar-->
+
+ 
+    <div class="navbar">
+      <div class="logo">
+        <img src="images/T.png" width="60px">
+      </div>
+      <div class="search-container">
+          
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+        <button type="button"></button>
+
+      </div>
+        
+      <div class="navbar-right">
+          <button type="menu" id="order">
+            <img src="./images/plus.png">
+          </button>
+          
+
+          <button type="button">
+            <img src="./images/notification-icon.png" />
+        </button>
+
+        <button type="button">
+          <img src="./images/user22.png" height="40px" />
+        </button>
+      </div>
+     </div>
+    </div>
+
+    <!-- aside-->
+<aside class="aside">
+  <div class="aside__header">
+      <div class="aside__header__logo">
+          <img src="images/WAREHOUSE.png">
+      </div>
+      <div class="aside__header__title">
+          <h3>Garage</h3>
+  </div>
+  <div class="aside__body">
+      <div class="aside__body__item">
+          <a href="#">
+              <span>Fleet</span>
+          </a>
+    </div>
+    <div class="aside__body__item">
+        <a href="#">
+            <span>Drivers</span>
+        </a>
+  </div>
+  <div class="aside__body__item">
+      <a href="#">
+          <span>Trip Reports</span>
+      </a>
+</div>
+<div class="aside__body__item">
+    <a href="#">
+        <span>Paymets & Finance</span>
+    </a>
+</div>
+</aside>
+
+<!--Product-card-->
+    
+       <div class="card" id="product-card">
+          
+          <div class="card-header">
+            <h2>NEW ORDER</h2>
+            
+            
+
+           
+          </div>
+
+          <div class="card-body">
+            <h3>Item Information</h3>
+             <img src="./images/happydad.png" height="100px">
+            <p>Name:</p>
+            <input type="text" id="description" placeholder="what is your product?">
+            <p>Weight:</p>
+            <input type="text" id="weight" placeholder="how much does it weight?">
+            <p>Number of items:</p>
+            <input type="number" id="#items" placeholder="total number of items">
+          </div>
+          <div class="card-footer">
+            <h4>Select between Vehicle or Fleet</h4>
+      <select>  
+      <option value="single">Single Vehicle</option>
+      <option value="multiple">Fleet</option>
+    </select>
+    </div>
+            </div>
+          
+       
+       
+
+
+
+
+
+          
+    <div class="gallery">
+      
+      <!--Droptdown with 2 items (single, multiple)-->
+      
+
+        <div id="LargeTruck"> 
+            <h3>Large Truck</h3>
+            <input type="radio" class="input-radio" style="height:25px; width:25px;">
+           
+                <img src="./images/BT3.png">
+            <p>Cargo Capacity: 5 Tons</p>
+            <p>Dimensions: 5,8/2,45/2,2 Meters</p>
+            </div>
+
+
+        <div id="MediumTruck">
+            <h3>Medium Truck</h3>
+            <input type="radio" class="input-radio" style="height:25px; width:25px;">
+                <img src="./images/MT3.png">
+            <p>Cargo Capacity: 1.5 Tons</p>
+            <p>Dimensions: 3/2/2 Meters</p>
+           
+            
+        </div>
+       
+        <div id="CityTruck"> 
+            <h3>Box Truck</h3>
+            <input type="radio" class="input-radio" style="height:25px; width:25px;">
+                <img src="./images/CT3.png">
+            <p>Cargo Capacity: 2.5 Tons</p>
+            <p>Dimensions: 3/2/2 Meters</p>
+            
+            
+        </div>
+
+        <div id="VAN">
+            <h3>VAN</h3>
+            <input type="radio" class="input-radio" style="height:25px; width:25px;">
+                <img src="./images/van4.png">
+            <p>Cargo Capacity: 1.5 Tons</p>
+            <p>Dimensions: 3/2/2 Meters</p>
+        </div>
+        
+
+        <div id="RamTruck"> 
+            <h3>Regular Truck</h3>
+            <input type="radio" class="input-radio" style="height:25px; width:25px;">
+                <img src="./images/RamTruck.png">
+            <p>Cargo Capacity: 1 Ton</p>
+            <p>Dimensions: 1.7/1.3/1.2 Meters</p>
+            
+            
+        </div>
+
+        <div id="SUV"> 
+            <h3>SUV</h3>
+            <input type="radio" class="input-radio" style="height:25px; width:25px;">
+                <img src="./images/suv22.png">
+
+            <p>Cargo Capacity: 0.5 Tons</p>
+            <p>Dimensions: 1.5/1.3/1 Meters</p>
+            
+
+        </div>
+
+        <div id="Sedan"> 
+            <h3>Sedan</h3>
+            <input type="radio" class="input-radio" style="height:25px; width:25px;">
+                <img src="./images/sedan22.png">
+            
+            <p>Cargo Capacity: 200 kg</p>
+            <p>Dimensions: 1/0.9/0.7 Meters</p>
+            
+        </div>
+
+
+        <div id="motorcycle">
+            <h3>Motorcycle</h3>
+            <input type="radio" class="input-radio" style="height:25px; width:25px;">
+                <img src="./images/MOTO.png">
+            
+            <p>Cargo Capacity: 20kg</p>
+            
+
+        </div>
+
+    </div>
+
+    <div class="button" id="Vbtn">
+      <button type="submit" class="btn btn-primary" id="vbtn"onclick="myFunction()">Next</button>
+  </div>
+
+
+    <!--footer-->
+
+    <div class="footer">
+        <div class="footer__item">
+          <h3>* I confirm all the information is accurate and truthfull. </h3>
+          <p>For more information consult our:</p>
+          <a href="#terms">Terms and Conditions</a>
+           </div>
+
+           
+
+</body>
+
+
+</html>
